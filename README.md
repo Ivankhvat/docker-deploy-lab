@@ -1,47 +1,122 @@
-# docker-deploy-lab
+# 🚀 Docker Deploy Lab
 
-# Docker Deploy Lab
-CI/CD laboratory project using GitHub Actions and Docker.
+CI/CD laboratory project demonstrating automated Docker deployment using GitHub Actions.
 
-## Architecture
+---
 
-GitHub
-   ↓
-GitHub Actions
-   ↓
-Ubuntu Server
-   ↓
-Docker Compose
-   ↓
-Nginx Container
+## 📋 Project Overview
 
-## Technologies
-- Ubuntu Server
+This project demonstrates a complete CI/CD workflow:
+
+- Source code stored in GitHub
+- Automatic workflow execution via GitHub Actions
+- Docker Compose validation
+- Nginx container deployment
+- Automated pipeline checks
+
+---
+
+## 🏗 Architecture
+
+Developer
+    │
+    ▼
+ Git Push
+    │
+    ▼
+ GitHub Repository
+    │
+    ▼
+ GitHub Actions
+    │
+    ▼
+ Docker Compose Validation
+    │
+    ▼
+ Container Deployment
+    │
+    ▼
+ Nginx Service
+
+---
+
+## ⚙️ Technologies
+
+| Category | Technology |
+|-----------|-----------|
+| OS | Ubuntu Server |
+| Containerization | Docker |
+| Orchestration | Docker Compose |
+| CI/CD | GitHub Actions |
+| Web Server | Nginx |
+| Version Control | Git |
+
+---
+
+## 📂 Repository Structure
+
+docker-deploy-lab
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+│
+├── html/
+│   └── index.html
+│
+├── docker-compose.yml
+│
+└── README.md
+
+---
+
+## 🔄 CI/CD Workflow
+
+Pipeline stages:
+
+1. Checkout repository
+2. Validate Docker Compose syntax
+3. Verify deployment files
+4. Execute workflow
+5. Report pipeline status
+
+---
+
+## ✅ Implemented Features
+
+- GitHub Repository Management
+- Docker Compose Configuration
+- GitHub Actions Workflow
+- CI/CD Pipeline
+- Automated Validation
+- Nginx Container Deployment
+
+---
+
+## 📈 Skills Demonstrated
+
+- Linux Administration
 - Docker
 - Docker Compose
-- GitHub Actions
-- Nginx
 - Git
+- GitHub Actions
+- CI/CD
+- YAML
+- Nginx
+- Troubleshooting
 
-## Implemented
-- Docker Compose validation
-- GitHub Actions workflow
-- CI pipeline
-- Automated syntax checks
+---
 
-## Project Structure
-docker-deploy-lab
-├── docker-compose.yml
-├── html
-│   └── index.html
-└── .github
-    └── workflows
-        └── deploy.yml
+## 🎯 Learning Outcomes
 
-## Workflow
+During this project I practiced:
 
-Every push to the main branch triggers:
+- Creating GitHub Actions workflows
+- Building CI/CD pipelines
+- Docker container deployment
+- Infrastructure automation
+- Pipeline troubleshooting
 
-1. Repository checkout
-2. Docker Compose validation
-3. CI pipeline execution
+---
+
+## 📊 Project Status
