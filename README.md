@@ -120,3 +120,7 @@ During this project I practiced:
 ---
 
 ## 📊 Project Status
+
+✅ Completed
+
+Current pipeline status: Passed
